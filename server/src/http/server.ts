@@ -4,7 +4,7 @@ import {
   validatorCompiler,
   type ZodTypeProvider,
 } from 'fastify-type-provider-zod'
-import { createGoalRoute } from './routes/create-goal'
+import { createGoalRoute } from './routes/create-goals'
 import { createCompletionRoute } from './routes/create-completion'
 import { getPendingGoalsRoute } from './routes/get-pending-goals'
 import { getWeekSummaryRoute } from './routes/get-week-summary'
